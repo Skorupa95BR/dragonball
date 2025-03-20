@@ -25,7 +25,7 @@ export const App = () => {
         <div className="sidebar">
           <h2>Sidebar</h2>
         </div>
-        <div className="flex flex-row gap-6 flex-wrap">
+        <div className="card_container">
           {chars?.map((char: Character) => {
             return <Card char={char} />;
           })}
